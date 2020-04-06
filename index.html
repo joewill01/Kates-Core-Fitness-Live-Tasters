@@ -1,0 +1,119 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>LIVE - Tasters</title>
+    <link rel="stylesheet" type="text/css" href="./css/style.css">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <script src="./js/anime.min.js"></script>
+    <script src="./js/script.js"></script>
+</head>
+<body>
+    <div class="header_space"></div>
+    <div class="page_header">
+      <div class="brand_holder">
+          <span class="brand"></span><span class="vertical-line"></span><h1>LIVE</h1>
+      </div>
+      <div class="nav-holder">
+
+      </div>
+    </div>
+
+    <div class="content">
+        <div class="class-list">
+            <div class="text">
+                <h1>Upcoming Classes:</h1>
+            </div>
+
+            <div class="class" onclick="goToClass('1')">
+                <h1>Pilates</h1>
+                <p>Tuesday 7th April, 10:30am</p>
+
+                <div class="text-box-holder">
+                    <h2 class="text-box green">FREE TASTER</h2>
+                </div>
+            </div>
+
+            <span class="horizontal-line"></span>
+
+            <div class="class" onclick="goToClass('2')">
+                <h1>BarreBelles</h1>
+                <p>Wednesday 8th April, 6:30pm</p>
+
+                <div class="text-box-holder">
+                    <h2 class="text-box green">FREE TASTER</h2>
+                </div>
+            </div>
+
+            <span class="horizontal-line"></span>
+
+            <div class="class" onclick="goToClass('3')">
+                <h1>Pilates</h1>
+                <p>Thursday 9th April, 10:30am</p>
+
+                <div class="text-box-holder">
+                    <h2 class="text-box green">FREE TASTER</h2>
+                </div>
+            </div>
+        </div>
+        <div class="class-pages">
+            <div class="class-page" id="class1">
+                <span class="nav-button" onclick="closeClass('1')">< Back</span>
+                <div class="class-page-info">
+                    <h1>Pilates</h1>
+                    <p>Tuesday 7th April, 10:30am</p>
+                </div>
+                <div class="class-page-video">
+                    <div class="video-wrapper">
+                        <iframe src="https://www.youtube.com/embed/fEvM-OUbaKs" frameborder="0" allowfullscreen></iframe>
+                    </div>
+                </div>
+            </div>
+            <div class="class-page" id="class2">
+                <span class="nav-button" onclick="closeClass('2')">< Back</span>
+                <div class="class-page-info">
+                    <h1>BarreBelles</h1>
+                    <p>Wednesday 8th April, 6:30pm</p>
+                </div>
+                <div class="stream-not-available">
+                    <h1>Stream not yet available!</h1>
+                    <h2>Check back 10 minutes before start of class.</h2>
+                    <p>(you may have to reload the page)</p>
+                </div>
+            </div>
+            <div class="class-page" id="class3">
+                <span class="nav-button" onclick="closeClass('3')">< Back</span>
+                <div class="class-page-info">
+                    <h1>Pilates</h1>
+                    <p>Thursday 9th April, 10:30am</p>
+                </div>
+                <div class="stream-not-available">
+                    <h1>Stream not yet available!</h1>
+                    <h2>Check back 10 minutes before start of class.</h2>
+                    <p>(you may have to reload the page)</p>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <div class="popup-holder" id="disclaimer">
+        <div class="popup">
+            <div class="popup-title">
+                <h1>Disclaimer</h1>
+            </div>
+
+            <div class="popup-content">
+                <p>
+                     Lorem ipsum dolor sit amet, consectetur adipiscing elit. Aenean pharetra nisl eu sapien ullamcorper malesuada. Maecenas sed eleifend justo, nec auctor mi. Praesent sollicitudin, libero id pellentesque vulputate, nisl purus tempor mauris, id tristique nulla ipsum non nunc. Proin maximus ante et purus suscipit, rutrum ultricies ex auctor. Nullam sagittis arcu id lorem varius semper. Praesent eu lectus venenatis, facilisis neque et, consequat eros. Suspendisse aliquam odio a erat fringilla, at facilisis ligula dapibus. Aenean vel venenatis nibh. Nulla at vestibulum lorem, eget congue nisi. Phasellus eros tellus, fringilla in mauris id, accumsan dapibus risus. Proin ultricies a urna sed gravida.
+
+Etiam faucibus, nibh at consequat aliquet, nibh leo pharetra sem, nec lobortis elit neque ac nunc. Etiam convallis, lectus id scelerisque tristique, velit dolor euismod odio, ut mattis dolor libero eget erat. Aliquam vitae tortor at nulla egestas feugiat eu vel tellus. Proin consectetur velit eget magna varius semper. Aliquam sit amet ligula finibus, consectetur urna sit amet, efficitur ex. Sed consectetur elit eros, a venenatis velit ultricies id. Mauris quis cursus mauris, vitae tincidunt nibh. Etiam sit amet urna quis tortor facilisis rutrum a eu neque. Donec volutpat eros eros, nec ultricies ligula eleifend non. Ut facilisis vestibulum placerat. Curabitur nunc nisi, luctus at dui sed, elementum vehicula felis. Phasellus at diam mollis, consequat orci ut, auctor metus.
+                </p>
+            </div>
+
+            <div class="popup-buttons">
+                <button>I AGREE</button>
+            </div>
+        </div>
+    </div>
+</body>
+</html>

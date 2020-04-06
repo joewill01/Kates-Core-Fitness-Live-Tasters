@@ -34,7 +34,7 @@ function openPopup(popup_id) {
         scale: [0.5, 1],
         easing: 'easeInOutExpo',
         duration: 170
-    }, '-=170');
+    }, '-=230');
 }
 
 function closePopup(popup_id) {
